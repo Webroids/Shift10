@@ -1,0 +1,14 @@
+[
+  { "name": "ChatGPT",      "file": "chatgpt.svg",      "ring": 0 },
+  { "name": "Claude",       "file": "claude.svg",       "ring": 0 },
+  { "name": "Gemini",       "file": "gemini.svg",       "ring": 0 },
+  { "name": "Grok",         "file": "grok.svg",         "ring": 0 },
+  { "name": "Perplexity",   "file": "perplexity.svg",   "ring": 1 },
+  { "name": "DeepSeek",     "file": "deepseek.svg",     "ring": 1 },
+  { "name": "Ollama",       "file": "ollama.svg",       "ring": 1 },
+  { "name": "Hugging Face", "file": "huggingface.svg",  "ring": 2 },
+  { "name": "MCP",          "file": "mcp.svg",          "ring": 2 },
+  { "name": "Midjourney",   "file": "midjourney.svg",   "ring": 3 },
+  { "name": "Firecrawl",    "file": "firecrawl.svg",    "ring": 3 },
+  { "name": "Manus",        "file": "manus.svg",        "ring": 4 }
+]
