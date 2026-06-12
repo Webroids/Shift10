@@ -60,7 +60,7 @@ function FAQSection() {
             </h2>
             <p style={{ marginTop: 24, fontSize: 16, lineHeight: 1.65, color: "var(--color-neutral-600)" }}>
               Etwas nicht dabei? Schreib direkt an{" "}
-              <a href="mailto:hallo@shift10.ch" style={{ color: "var(--color-black)", textDecoration: "underline", textDecorationThickness: 1, textUnderlineOffset: 4 }}>hallo@shift10.ch</a>.
+              <a href="mailto:mike@shift10.ch" style={{ color: "var(--color-black)", textDecoration: "underline", textDecorationThickness: 1, textUnderlineOffset: 4 }}>mike@shift10.ch</a>.
             </p>
           </div>
           <div>

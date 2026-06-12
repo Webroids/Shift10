@@ -185,8 +185,27 @@ function WasMachenWirNichtSection() {
   ];
 
   return (
-    <section id="was-machen-wir-nicht" className="section" style={{ paddingTop: 120, paddingBottom: 120, background: "var(--color-accent)" }}>
+    <section id="was-machen-wir-nicht" className="section" style={{ paddingTop: 120, paddingBottom: 120, background: "var(--color-accent)", position: "relative", overflow: "hidden" }}>
+      {/* Dot texture overlay */}
+      <div style={{
+        position: "absolute", inset: 0, pointerEvents: "none",
+        backgroundImage: "radial-gradient(circle, rgba(255,255,255,0.12) 1px, transparent 1px)",
+        backgroundSize: "20px 20px",
+        zIndex: 0
+      }} />
+      {/* Glow */}
+      <div style={{
+        position: "absolute", bottom: -40, left: -20,
+        width: 480, height: 280,
+        background: "radial-gradient(ellipse at center, rgba(255,230,100,0.55) 0%, rgba(255,180,30,0.28) 40%, transparent 70%)",
+        pointerEvents: "none", zIndex: 0,
+        animation: "wmwn-glow 3.5s ease-in-out infinite"
+      }} />
       <style>{`
+        @keyframes wmwn-glow {
+          0%, 100% { opacity: 1; transform: scale(1); }
+          50%       { opacity: 0.6; transform: scale(1.18); }
+        }
         @keyframes wmwn-float {
           0%, 100% { transform: translateY(0); }
           50%       { transform: translateY(-5px); }
@@ -232,7 +251,7 @@ function WasMachenWirNichtSection() {
 
       <div className="dotgrid" style={{ color: "rgba(255,255,255,0.35)" }} />
 
-      <div className="container" style={{ position: "relative" }}>
+      <div className="container" style={{ position: "relative", zIndex: 1 }}>
 
         {/* Centered intro */}
         <div style={{ textAlign: "center", maxWidth: 720, marginInline: "auto" }}>

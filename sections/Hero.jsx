@@ -467,7 +467,7 @@ function HeroOrbit() {
           <div className="row row--center" style={{ marginTop: 32, flexDirection: isMobile ? "column" : "row", alignItems: isMobile ? "stretch" : "center", gap: isMobile ? 12 : undefined }}>
             <a href="#kontakt" className="btn btn--accent" style={isMobile ? { justifyContent: "center" } : {}}>Unverbindliches Erstgespräch<span className="btn-arrow">→</span>
             </a>
-            <a href="#angebot" className="btn btn--ghost" style={isMobile ? { justifyContent: "center" } : {}}>So funktioniert’s</a>
+            <a href="#so-funktionierts" className="btn btn--ghost" style={isMobile ? { justifyContent: "center" } : {}}>So funktioniert’s</a>
           </div>
         </div>
       </div>

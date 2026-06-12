@@ -133,7 +133,7 @@ function KontaktSection() {
           {/* Right: form */}
           {/* ─── FORMSPREE: replace YOUR_FORM_ID with the ID from formspree.io/forms ─── */}
           <form
-            action="https://formspree.io/f/xpqeykqq"
+            action="https://formspree.io/f/xdavwydy"
             method="POST"
             onSubmit={handleSubmit}
             style={{
