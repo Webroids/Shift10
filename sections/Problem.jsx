@@ -214,7 +214,7 @@ function ProblemSection() {
           <div style={{
             fontFamily: "var(--font-mono)", fontSize: 12, letterSpacing: "0.16em",
             textTransform: "uppercase", color: "var(--color-neutral-500)",
-          }}>Für Schweizer KMU</div>
+          }}>Hand aufs Herz</div>
           <h2 className="display display--md" style={{
             marginTop: 16, fontWeight: 500,
             fontSize: "clamp(36px, 4vw, 56px)",
