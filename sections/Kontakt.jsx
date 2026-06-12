@@ -102,7 +102,6 @@ function KontaktSection() {
             >
               {[
                 ["E-Mail", "mike@shift10.ch"],
-                ["Telefon", "+41 44 000 00 00"],
                 ["Region", "Thurgau · Schweizweit"],
               ].map(([k, v]) => (
                 <div
