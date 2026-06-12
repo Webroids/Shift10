@@ -67,7 +67,10 @@ function AuthoritySection() {
           animation: "s10-marquee-ltr 60s linear infinite",
           alignItems: "center",
           gap: 80,
-          whiteSpace: "nowrap"
+          whiteSpace: "nowrap",
+          willChange: "transform",
+          transform: "translateZ(0)",
+          backfaceVisibility: "hidden"
         }}>
           {/* Two identical halves of 10 repeats each — animation slides one half (-50%) then loops */}
           {[...Array(2)].flatMap((_, half) =>

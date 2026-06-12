@@ -23,6 +23,12 @@ function SocialProofSection() {
     <section id="social-proof" className="section section--bone">
       <div className="container container--wide">
         {/* Client name marquee — same style as AuthoritySection */}
+        <style>{`
+          @keyframes s10-marquee-ltr {
+            from { transform: translateX(0); }
+            to   { transform: translateX(-50%); }
+          }
+        `}</style>
         <div style={{ marginBottom: 100, overflow: "hidden", position: "relative" }}>
           <div aria-hidden="true" style={{
             opacity: 0.6,
@@ -35,7 +41,10 @@ function SocialProofSection() {
               animation: "s10-marquee-ltr 60s linear infinite",
               alignItems: "center",
               gap: 80,
-              whiteSpace: "nowrap"
+              whiteSpace: "nowrap",
+              willChange: "transform",
+              transform: "translateZ(0)",
+              backfaceVisibility: "hidden"
             }}>
               {[...Array(2)].flatMap((_, half) =>
                 [...Array(10)].flatMap((_, rep) =>

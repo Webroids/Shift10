@@ -419,6 +419,13 @@ function ProcessSection() {
           }} />
 
 
+          {/* Black gradient left→right for text readability */}
+          <div style={{
+            position: "absolute", inset: 0, pointerEvents: "none",
+            background: "linear-gradient(to right, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0.38) 50%, rgba(0,0,0,0.0) 100%)",
+            zIndex: 1
+          }} />
+
           {/* Content */}
           <div style={{ position: "relative", zIndex: 2, maxWidth: 680 }}>
             <div style={{ marginBottom: 20 }}>
